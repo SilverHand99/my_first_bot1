@@ -1,0 +1,29 @@
+# Git ignore file
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Environment variables and secrets
+.env
+*.env
+
+# Django migrations (optional)
+*/migrations/__pycache__/
